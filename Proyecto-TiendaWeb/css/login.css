@@ -36,10 +36,18 @@ input:required:invalid{
     text-align:center;
     width: 48%;
     margin: 1%;
+}a:link {
+  color: rgb(200, 95, 116);
 }
-a:link {
-    color: rgb(200, 95, 116);
-  }
+a:visited {
+  color: rgb(14, 66, 14);
+}
+a:hover {
+  color: rgb(162, 205, 218);
+}
+a:active {
+  color: maroon;
+}
 .separacion{
     width: 32%;
     padding-left: 16%;
