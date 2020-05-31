@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE agenda SYSTEM "login.dtd">
+<busquedaUsuarios>
+	<usuario>
+		<usuario>Juan</usuario>
+		<pass>12345678</pass>
+    </usuario>
+</busquedaUsuarios>

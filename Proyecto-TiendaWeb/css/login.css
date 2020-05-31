@@ -1,0 +1,98 @@
+body
+{
+   
+    font-family: 'Chelsea Market', cursive;
+   background-color: rgb(162, 205, 218);  
+}
+.boton{
+   
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: rgb(146, 146, 246);
+    border-radius: 15px;
+    border: 3px double blue;
+}
+/*Esto es el menu del login que tengo que ocultar*/
+#loginflotante {
+    float: right;
+    padding: 10px;
+    border: 1px solid cyan;
+    border-radius: 10%;
+    background-image: linear-gradient(white,grey)
+}
+input:required:valid{
+    background-color:  rgb(146, 146, 246);
+    box-shadow:2px 2px rgb(63, 62, 62);
+}
+input:required:invalid{
+    background-color: rgb(236, 140, 140);
+    box-shadow:-2px -2px rgb(200, 95, 116);
+    }
+.mitad{
+    float:center;
+    text-align:center;
+    width: 48%;
+    margin: 1%;
+}
+a:link {
+    color: rgb(200, 95, 116);
+  }
+.separacion{
+    width: 32%;
+    padding-left: 16%;
+}
+input[type=submit]{
+    margin: 10px;
+}
+/*tooltip aqui abajo*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+   
+  }
+  
+  .tooltip .tiptexto {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(146, 146, 246);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tiptexto::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  .tooltip:hover .tiptexto {
+    visibility: visible;
+    transition: 5s;
+    opacity: 1;
+  }
+/*tooltip arriba*/
+#mensaje
+{
+    clear: both;
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(200, 95, 116);
+}
+/*hasta aqui*/

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<!ELEMENT productos ( producto)+>
+<!ELEMENT producto ( referencia, imagen+, descripcion, precio)>
+<!ELEMENT referencia (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8">
+<!ELEMENT login ( usuario, pass)>
+<!ELEMENT usuario (#PCDATA)>
+<!ELEMENT pass (#PCDATA)>
+
+

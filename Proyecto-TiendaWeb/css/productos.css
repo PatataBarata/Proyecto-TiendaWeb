@@ -1,0 +1,85 @@
+
+.boton
+{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: rgb(146, 146, 246);
+    border-radius: 15px;
+    border: 3px double blue;
+}
+body{
+    
+    font-family: 'Chelsea Market', cursive;
+    background-color: rgb(162, 205, 218);
+}
+.texto{
+    
+    text-align: center;
+    font-size: 50px;
+   
+}
+.precio{
+    width: 100%;
+    font-weight: 600;
+}
+.productosEnVenta {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2%;
+    grid-row-gap: 1em;
+   
+    margin: 2%;
+    justify-content: center;
+
+}
+.productoImagen
+{
+    float: left;
+    width: 40%;
+}
+.cesta img {
+    width: 5%;
+    margin-left: 10%;
+   
+}
+
+.producto {
+
+    align-items: center;
+    display: flex;
+   
+}
+.textoProducto{
+    
+    text-align: left;
+    float: left;
+    width: 55%;
+ 
+}
+.producto img {
+    width: 80%;
+    border-radius: 125px 125px; 
+    -moz-border-radius: 125px 125px; 
+    -webkit-border-radius: 125px 125px;
+    border: medium;
+    
+}
+.producto:hover{
+    border:medium solid grey;
+
+}
+@media screen and (max-width: 700px){
+    .productosEnVenta{
+        
+        display: grid;
+        grid-template-columns:  repeat(1, 1fr);
+        grid-column-gap: 25%;
+        grid-row-gap: 1em;
+        width:60%;
+        margin: 9%;
+    }
+
+}

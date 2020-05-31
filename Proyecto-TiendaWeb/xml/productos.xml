@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE agenda SYSTEM "producto.dtd">
+
+<busquedaProductos>
+	<producto>
+		<referencia>1</referencia>
+		<imagen>1.jpg</imagen>
+		<descripcion>Tira de costilla de ternera a la brasa</descripcion>
+		<precio>6,5</precio>
+        </producto>
+</busquedaProductos>
+
+<busquedaProductos>
+	<producto>
+		<referencia>2</referencia>
+		<imagen>2.jpg</imagen>
+		<descripcion>Enpanada rellena de carne, pimiento y cebolla</descripcion>
+		<precio>1,5</precio>
+        </producto>
+</busquedaProductos>
+
+<busquedaProductos>
+	<producto>
+		<referencia>3</referencia>
+		<imagen>3.jpg</imagen>
+		<descripcion>Guiso de pasta y ternera con tomate frito al estilo paraguay</descripcion>
+		<precio>5,5</precio>
+        </producto>
+</busquedaProductos>
+<busquedaProductos>
+	<producto>
+		<referencia>4</referencia>
+		<imagen>4.jpg</imagen>
+		<descripcion>Tarta de Frutilla: con crema pastelera y cubierlo de macedonia de frutas</descripcion>
+		<precio>1,5</precio>
+        </producto>
+</busquedaProductos>
+<busquedaProductos>
+	<producto>
+		<referencia>5</referencia>
+		<imagen>5.jpg</imagen>
+		<descripcion>Pasta y pollo con salsa tomate chyryry al estilo paraguay</descripcion>
+		<precio>4,5</precio>
+        </producto>
+</busquedaProductos>
+<busquedaProductos>
+	<producto>
+		<referencia>6</referencia>
+		<imagen>6.jpg</imagen>
+		<descripcion>Zapallo (Calabaza pequeña) relleno de carne gratinada al horno</descripcion>
+		<precio>1,5</precio>
+        </producto>
+</busquedaProductos>
+<busquedaProductos>
+	<producto>
+		<referencia>7</referencia>
+		<imagen>7.jpg</imagen>
+		<descripcion>Clerico paraguayo: combinado de frutas con vino y zumos</descripcion>
+		<precio>1</precio>
+        </producto>
+</busquedaProductos>
+<busquedaProductos>
+	<producto>
+		<referencia>8</referencia>
+		<imagen>8.jpg</imagen>
+		<descripcion>Budin: Pan, huevo y leche... Muy dulce.</descripcion>
+		<precio>1,5</precio>
+        </producto>
+</busquedaProductos>
